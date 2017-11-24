@@ -1,0 +1,47 @@
+{
+  "name": "oniyi-ltpa",
+  "version": "1.0.0",
+  "description": "Tools to deal with Lightweight Third-Party Authentication tokens",
+  "main": "lib/index.js",
+  "scripts": {
+    "coverage": "nyc npm test && nyc report --reporter=html",
+    "format": "prettier-eslint --write \"lib/**/*.js\" \"test/**/*.js\"",
+    "prelint": "npm run format",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "ava --verbose",
+    "test:watch": "npm test -- --watch"
+  },
+  "devDependencies": {
+    "ava": "0.23.0",
+    "eslint": "4.11.0",
+    "eslint-config-oniyi": "5.0.2",
+    "eslint-plugin-ava": "4.2.2",
+    "nyc": "11.3.0",
+    "prettier-eslint-cli": "4.4.0"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.26",
+    "node-biginteger": "0.0.10",
+    "node-rsa": "^0.4.2",
+    "properties": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/benkroeger/oniyi-ltpa.git"
+  },
+  "keywords": [
+    "ltpa",
+    "ltpa2",
+    "ibm",
+    "websphere",
+    "domino",
+    "rsa",
+    "pem"
+  ],
+  "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benkroeger/oniyi-ltpa/issues"
+  },
+  "homepage": "https://github.com/benkroeger/oniyi-ltpa#readme"
+}
