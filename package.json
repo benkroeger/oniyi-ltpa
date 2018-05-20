@@ -28,21 +28,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/benkroeger/oniyi-ltpa.git"
   },
-  "keywords": [
-    "ltpa",
-    "ltpa2",
-    "ibm",
-    "websphere",
-    "domino",
-    "rsa",
-    "pem"
-  ],
+  "keywords": ["ltpa", "ltpa2", "ibm", "websphere", "domino", "rsa", "pem"],
   "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/benkroeger/oniyi-ltpa/issues"
   },
-  "homepage": "https://github.com/benkroeger/oniyi-ltpa#readme"
   "homepage": "https://github.com/benkroeger/oniyi-ltpa#readme",
   "engines": { "node": "^8.11.1" }
 }
