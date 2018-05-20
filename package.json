@@ -21,7 +21,7 @@
   "dependencies": {
     "big-integer": "^1.6.27",
     "node-biginteger": "0.0.10",
-    "node-rsa": "^0.4.2",
+    "node-rsa": "^1.0.0",
     "properties": "^1.2.1"
   },
   "repository": {
@@ -43,4 +43,6 @@
     "url": "https://github.com/benkroeger/oniyi-ltpa/issues"
   },
   "homepage": "https://github.com/benkroeger/oniyi-ltpa#readme"
+  "homepage": "https://github.com/benkroeger/oniyi-ltpa#readme",
+  "engines": { "node": "^8.11.1" }
 }
