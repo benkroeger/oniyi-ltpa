@@ -15,11 +15,11 @@
     "ava": "^0.25.0",
     "eslint": "^4.19.1",
     "eslint-config-oniyi": "^5.1.0",
-    "nyc": "^11.6.0",
+    "nyc": "^11.8.0",
     "prettier-eslint-cli": "^4.7.1"
   },
   "dependencies": {
-    "big-integer": "^1.6.27",
+    "big-integer": "^1.6.28",
     "node-biginteger": "0.0.10",
     "node-rsa": "^1.0.0",
     "properties": "^1.2.1"
