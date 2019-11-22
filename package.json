@@ -49,5 +49,6 @@
   "homepage": "https://github.com/benkroeger/oniyi-ltpa#readme",
   "engines": {
     "node": "^8.11.1"
-  }
+  },
+  "files": ["lib/"]
 }
