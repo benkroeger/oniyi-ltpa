@@ -5,15 +5,13 @@ const { ltpaToken, ltpaToken2 } = require('./fixtures/constants');
 
 const { LTPA_PASSWORD } = process.env;
 
-test.cb('creates ltpa instance from keys.properties file', (t) => {
+test.cb('creates ltpa instance from keys.properties file', t => {
   ltpa2Factory('test/fixtures/keys.properties', LTPA_PASSWORD, (err, ltpa2) => {
     t.falsy(err);
 
     const keyfile = ltpa2.getKeyfile();
 
-    const {
-      creationHost, realm, version, privateKeyPEM,
-    } = keyfile;
+    const { creationHost, realm, version, privateKeyPEM } = keyfile;
     t.is(creationHost, 'foo.bar.com');
     t.is(realm, 'foo.bar.com:389');
     t.is(version, 1);
@@ -22,7 +20,7 @@ test.cb('creates ltpa instance from keys.properties file', (t) => {
   });
 });
 
-test.cb('decodes ltpaToken', (t) => {
+test.cb('decodes ltpaToken', t => {
   ltpa2Factory('test/fixtures/keys.properties', LTPA_PASSWORD, (err, ltpa2) => {
     t.falsy(err);
 
@@ -35,7 +33,7 @@ test.cb('decodes ltpaToken', (t) => {
   });
 });
 
-test.cb('decodes ltpaToken2', (t) => {
+test.cb('decodes ltpaToken2', t => {
   ltpa2Factory('test/fixtures/keys.properties', LTPA_PASSWORD, (err, ltpa2) => {
     t.falsy(err);
 

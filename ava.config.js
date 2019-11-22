@@ -1,6 +1,3 @@
 export default {
-  "files": [
-    "test/**/*",
-    "!test/fixtures/*"
-  ],
+  files: ['test/**/*', '!test/fixtures/*'],
 };

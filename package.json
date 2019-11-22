@@ -4,19 +4,23 @@
   "description": "Tools to deal with Lightweight Third-Party Authentication tokens",
   "main": "lib/index.js",
   "scripts": {
-    "coverage": "nyc npm test && nyc report --reporter=html",
-    "format": "prettier-eslint --write \"lib/**/*.js\" \"test/**/*.js\"",
+    "format": "prettier --write \"**/*.{js,json}\"",
     "prelint": "npm run format",
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint .",
     "test": "ava --verbose",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "coverage": "nyc npm test && nyc report --reporter=html"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-oniyi": "^5.1.0",
-    "prettier-eslint-cli": "^4.7.1"
     "ava": "^2.4.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-ava": "^9.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
     "nyc": "^14.1.1",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
     "big-integer": "^1.6.48",
