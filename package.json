@@ -12,16 +12,16 @@
     "test:watch": "npm test -- --watch"
   },
   "devDependencies": {
-    "ava": "^0.25.0",
     "eslint": "^4.19.1",
     "eslint-config-oniyi": "^5.1.0",
-    "nyc": "^11.8.0",
     "prettier-eslint-cli": "^4.7.1"
+    "ava": "^2.4.0",
+    "nyc": "^14.1.1",
   },
   "dependencies": {
-    "big-integer": "^1.6.28",
+    "big-integer": "^1.6.48",
     "node-biginteger": "0.0.10",
-    "node-rsa": "^1.0.0",
+    "node-rsa": "^1.0.6",
     "properties": "^1.2.1"
   },
   "repository": {
