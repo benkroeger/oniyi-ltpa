@@ -1,6 +1,6 @@
 {
   "name": "oniyi-ltpa",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Tools to deal with Lightweight Third-Party Authentication tokens",
   "main": "lib/index.js",
   "scripts": {
