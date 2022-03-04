@@ -52,5 +52,6 @@
   },
   "files": [
     "lib/"
-  ]
+  ],
+  "types": "lib/oniyi-ltpa.d.ts"
 }
